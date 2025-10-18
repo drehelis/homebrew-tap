@@ -11,7 +11,7 @@ cask "ILrail-bar" do
   app "ILrail-bar.app"
 
   zap trash: [
-    "~/Library/Preferences/il.co.liar.ILrail-bar.plist
+    "~/Library/Preferences/il.co.liar.ILrail-bar.plist"
   ]
 
   livecheck do
