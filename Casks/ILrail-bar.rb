@@ -1,4 +1,4 @@
-cask "ILrail-bar" do
+cask "ilrail-bar" do
   version "2.10.0"
   sha256 "48d09cd484873229407fb2978ac730be1da054ca1b0cc77e15b1e86bc63dd2a3"
 
@@ -17,5 +17,11 @@ cask "ILrail-bar" do
   livecheck do
     url :url
     strategy :github_latest
+  end
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-d", "com.apple.quarantine", "/Applications/ILrail-bar.app"],
+                   sudo: false
   end
 end
