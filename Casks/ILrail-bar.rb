@@ -1,6 +1,6 @@
 cask "ilrail-bar" do
-  version "2.11.0"
-  sha256 "b3908fca9a5b7a1644f2ec435400b9e336fe3e2d8529351899c4d7834e43d18d"
+  version "2.12.0"
+  sha256 "606412fdded381f54fec130d927d0fba7323c1a0c3e1b4d9beca1b2929b08bb9"
 
   url "https://github.com/drehelis/ILrail-bar/releases/download/v#{version}/ILrail-bar.dmg",
       verified: "github.com/drehelis/ILrail-bar/"
